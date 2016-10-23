@@ -1,0 +1,404 @@
+ 
+/* CSS Document */
+*{padding:0;
+margin:0;}
+body{font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+		color:#000;}
+a{text-decoration:none;}
+ul{list-style-type:none;}
+.clear{clear:both;}
+#header{background:#F1F1F1;
+		height:30px;}
+#head{width:1210px;
+		margin:0 auto;
+		line-height:30px;}
+#head a{color:#666;
+		font-size:12px;}
+#head a:hover{color:#C81623;}
+#head .red{color:#C81623;
+			float:left;}
+#head_left{float:left;}
+#head_right{float:right;}
+#head_right ul li{float:left;
+				   line-height:30px;
+				   height:30px;
+				   padding-left:12px;
+				   color:#DDD;}
+#head_right ul li a{padding-right:12px;}
+#head_right ul{float:left;}
+#head_right ul li img{float:left;
+						margin-top:5px;}
+#jd_gg{background:#FB3939;
+		height:80px;}
+#jd_gg_con{width:1210px;
+			margin:0 auto;}
+#search{height:100px;}
+#search_con{width:1210px;
+			margin:0 auto;}
+#search_left{margin-top:20px;
+			float:left;}  
+#search_center{float:left;
+				margin:25px 0 0 100px;}
+#search_right{float:right;
+				margin:23px 200px 0 0;}
+				
+				
+#search_text{width:452px;
+				height:32px;
+				border:2px solid #B61D1D;
+				float:right;}
+#search_butt{width:82px;
+			height:36px;
+			background:#B61D1D;
+			border:none;
+			color:#fff;
+			font-weight:bold;
+			font-size:17px;}
+#search_center ul li{display:inline;
+					font-size:12px;
+					line-height:28px;}
+#search_center ul li a{color:#666;}
+#search_center ul li .s_red{color:#C81623;}
+/*qbsp*/
+#qbsp{height:44px;
+	border-bottom:2px solid #B1191A;}
+#qbsp_con h3{ line-height:44px;
+			width:200px;
+			float:left;
+			color:#fff;
+			font-size:14px;
+			background:#B1191A;
+			padding-left:10px;
+			margin-left:70px;}
+#qbsp_con ul{float:left;
+			margin-left:15px;}
+#qbsp_con ul li{display:inline;
+				line-height:44px;
+				padding-right:37px;}
+#qbsp_con ul li a{color:#515151;
+					font-weight:500;
+					font-size:14px;
+					font-family:"microsoft YaHei UI";}
+/*content*/
+#content{height:466px;}
+#content_con{width:1210px;
+			margin:0 auto;}
+#content_con_left{float:left;
+					width:210px;
+					background:#C81623;
+					height:466px;}
+#content_con_center{float:left;
+					width:730px;
+					height:454px;
+					
+					margin-top:12px;
+					margin-left:10px;}
+#content_con_right{float:right;
+					height:454px;
+					margin-top:12px;
+					
+					width:250px;}
+					
+					
+					
+					
+					
+					
+								
+					.www51buycom { width: 730px; height: 454px; margin:0 auto; position: relative; overflow:hidden;
+float:left;}
+
+/*数字按钮样式*/
+.www51buycom .num {  height: 28px; position: absolute; bottom:15px; left: 15px; zoom:1; z-index:3 }
+.www51buycom .num li { width: 20px; height: 20px; line-height: 20px; text-align: center; font-weight: 400; font-family: "微软雅黑", Arial; color: #FFFFFF; background: #444444; margin-right: 10px; border-radius:50%; cursor:pointer; float: left; }
+.www51buycom .num li.on { background: #FF7700; } /*当前项*/
+
+/*上一个  下一个*/
+.www51buycom .prev,
+.www51buycom .next { display: none; width: 40px; height: 100px; background: url(../images/btn.png) no-repeat; position: absolute; top: 90px;}
+.www51buycom .prev { left: 0; }
+.www51buycom .next { right: 0; background-position: right }
+
+
+
+
+
+
+
+
+#content_con_left ul{padding-left:10px;
+					color:#FFF;}
+#content_con_left ul li{line-height:31px;
+						}
+#content_con_left ul li span{float:right;
+							margin-right:12px;
+							}
+#content_con_left ul li a{font-family:"microsoft YaHei UI";
+							color:#FFF;}
+#content_con_right_top{height:164px;
+						border:1px solid #E4E4E4;
+						
+						}
+#content_con_right_top ul{padding:0 15px;
+							line-height:25px;
+							font-size:13px;}
+#content_con_right_top b{margin-right:5px;}
+#content_con_right_top ul li a{color:#666;}												
+#content_con_right_top h4{font-size:16px;
+							color:#666;
+							line-height:32px;
+							border-bottom:1px dotted #E4E4E4;
+							padding-left:15px;}
+#content_con_right_top span{font-size:12px;
+							color:#000;
+							font-weight:100;
+							float:right;
+							margin-right:15px;}
+#content_con_right_mi{height:210px;
+						}
+#content_con_right_mi table{border-collapse:collapse;
+							width:250px;}
+#content_con_right_mi table tr td{border:1px solid #E4E4E4;
+									width:25%;}
+#content_con_right_mi table tr td img{width:100%;
+										height:69px;}
+#content_con_right_buttom{float:right;
+							margin-right:0px;}
+#jrtj{height:164px;}
+#jrtj_con{width:1210px;
+		margin:0 auto;}
+#jrtj_con_left{float:left;
+				margin-top:14px;
+				}
+#jrtj_con_right{float:right;}
+#jrtj_con_right ul li{float:left;
+						margin-left:1px;}
+#cnxh{height:269px;}
+#cnxh_con{width:1210px;
+		margin:0 auto;}
+#cnxh_con h3{font-family:"microsoft YaHei UI";
+			font-weight:100;
+			font-size:18px;
+			line-height:30px;}
+#cnxh_con h3 img{position:relative;
+				top:3px;}
+#cnxh_con h3 span{float:right;
+					font-size:12px;}
+#cnxh_con ul{border:1px solid #999;}
+#cnxh_con ul li{float:left;
+				width:201px;
+				}
+#cnxh_con .cnxh_text{padding:0 33px;
+					border-right:1px solid #CCC;
+					margin-bottom:5px;}
+#cnxh_con .cnxh_text_o{border-right:none;}
+#cnxh_con ul li img{display:block;
+					margin:0 auto;}
+#cnxh_con ul li p{font-size:12px;
+					line-height:18px;}
+#cnxh_con ul li p a{color:#666;}
+#cnxh_con ul li span{font-size:18px;
+					font-weight:bold;
+					color:#BB1D1A;
+					line-height:32px;}	
+					
+#pzsh{height:443px;}
+#pzsh_con{width:1210px;
+			margin:0 auto;
+		}
+#pzsh_con h3{line-height:28px;
+			font-family:"microsoft YaHei UI";
+			font-weight:300;
+			font-size:20px;}
+#pzsh_con table{border-collapse:collapse;
+				height:406px;
+				}			
+#pzsh_con table tr td{border:1px solid #999;
+						vertical-align:top;}
+.pzsh_con_menu1{
+				padding-left:14px;
+				border-right:1px dashed #999;
+				list-style-type:none;
+				}
+.pzsh_con_menu2{
+				padding-right:14px;
+				list-style-type:none;
+				}
+#pzsh_con table tr td .border_clear{border-bottom:none;}
+#pzsh_con table tr td ul{float:left;
+						padding-left:}
+#pzsh_con table tr td ul li{height:57px;
+							border-bottom:1px dashed #999999;}
+#pzsh_con table tr td ul li img{width:70px;
+								height:56px;}
+#pzsh_con table tr td h4{line-height:40px;
+						border-bottom:1px dashed #999;
+						text-align:center;
+						margin:0 20px;
+						font-size:15px;}
+#pzsh_con table tr td .pzsh_con_img1{background:url(file:///F|/img/5739ad34Nfbb689be.jpg);
+									height:205px;
+									border-bottom:1px solid #999;
+									padding-left:10px;
+									overflow:hidden;/*溢出隐藏*/}
+.pzsh_con_img1 h5{margin-top:60px;
+				font-size:16px;
+				line-height:35px;}
+.pzsh_con_img1 p{font-size:12px;
+				line-height:20px;}
+.pzsh_con_img1 span{font-size:12px;
+					color:#CE303C;
+				line-height:20px;}
+.pzsh_con_img2{background:url(file:///F|/img/5739ba97N52cd4805.jpg) no-repeat;
+									height:58px;
+									padding-left:10px;
+									padding-top:50px;}
+.pzsh_con_img2 h5{margin-top:20px;
+				font-size:16px;
+				line-height:35px;}
+.pzsh_con_img2 p{font-size:12px;
+				line-height:20px;}
+.pzsh_con_img2 span{font-size:12px;
+					color:#CE303C;
+				line-height:20px;}
+.pzsh_con_img3{background:url(file:///F|/img/572aa444Ne1d99217.jpg) no-repeat;
+				height:155px;
+				border-bottom:1px solid #999;
+				padding-left:10px;
+				padding-top:50px;
+				}
+.pzsh_con_img3 h5{margin-top:60px;
+				font-size:16px;
+				line-height:35px;}
+.pzsh_con_img3 p{font-size:12px;
+				line-height:20px;}
+.pzsh_con_img3 span{font-size:12px;
+					color:#CE303C;
+				line-height:20px;}
+.pzsh_con_img4{height:158px;
+				padding-left:0px;
+				padding-top:0px;}
+.pzsh_con_img4 h5{margin-top:60px;
+				font-size:16px;
+				line-height:35px;}
+.pzsh_con_img4 p{font-size:12px;
+				line-height:20px;}
+.pzsh_con_img4 span{font-size:12px;
+					color:#CE303C;
+				line-height:20px;}									
+.pzsh_con_img5{background:url(file:///F|/img/57394587N3ac08057.jpg);
+				width:190px;
+				height:158px;
+				float:left;
+				border-right:1px solid #999;
+				padding-left:10px;}
+.pzsh_con_img5 h5{margin-top:60px;
+				font-size:16px;
+				line-height:35px;}
+.pzsh_con_img5 p{font-size:12px;
+				line-height:20px;}
+.pzsh_con_img5 span{font-size:12px;
+					color:#CE303C;
+				line-height:20px;}
+.pzsh_con_img6{width:203px;
+				height:158px;
+				float:right;
+				background:url(file:///F|/img/571f3c98Nd2e8f720.jpg);}
+#jd_gg2{width:1210px;
+		height:126px;
+		margin:0 auto;
+		margin-top:-10px;}
+#jd_gg2 img{float:left;}
+					
+.jd_goods{
+	margin-top:10px;
+	font-family:"Microsoft YaHei UI";}
+.jd_goods_con{
+	width:1210px;
+	margin:0 auto;}
+.jd_goods_con_head{
+	border-bottom:1px solid #C81623;
+	margin-top:-10px;
+	overflow:hidden;}
+.jd_goods_con_head h3{
+	font-size:20px;
+	font-weight:300;
+	float:left;
+	line-height:30px;}
+.jd_goods_con_head img{
+	margin-right:5px;}
+.jd_goods_con_head ul{
+	float:right;
+	height:35px;
+	line-height:35px;
+	border:1px solid #EDEDED;
+	border-bottom:none;}
+.jd_goods_con_head ul li{
+	float:left;}
+.jd_goods_con_head ul li a{
+	padding:0 16px;
+	color:#666;
+	border-left:1px solid #EDEDED;}
+
+.jd_goods_con_head .goods_one{
+	border-left:1px solid #C81623;
+	border-right:1px solid #C81623;
+	border-top:3px solid #C81623;
+	height:32px;
+	line-height:32px;}
+.jd_goods_con_head .goods_one a{
+	display:block;
+	height:33px;
+	background:#fff;
+	color:#C81623;}
+.jd_goods_con .jd_goods_con_menu{}
+.jd_goods_con .jd_goods_con_menu1{
+	width:330px;
+	height:633px;
+	float:left;}
+.jd_goods_con .jd_goods_con_menu1 .jd_goods_con_menu1_top_v1{
+	line-height:34px;
+	width:330px;
+	position:absolute;
+	bottom:0px;
+	background:rgba(255, 255, 255, 0.5) none repeat scroll 0 0 !important;}
+.jd_goods_con .jd_goods_con_menu1 .jd_goods_con_menu1_top_v{
+	height:475px;
+	position:relative;
+	top:0px;}
+.jd_goods_con .jd_goods_con_menu1 .jd_goods_con_menu1_top_v1 ul li{
+	float:left;
+	padding:0px 28px;}
+.jd_goods_con .jd_goods_con_menu1 .jd_goods_con_menu1_top_v1 ul li a{
+	color:#999;
+	display:inline;}
+.jd_goods_con .jd_goods_con_menu2{
+	width:439px;
+	height:633px;
+	float:left;}
+.jd_goods_con .jd_goods_con_menu3{
+	width:219px;
+	height:633px;
+	float:left;}
+.jd_goods_con .jd_goods_con_menu4{
+	width:219px;
+	height:633px;
+	float:right;}					
+.jd{
+	color:#999;
+	font-size:13px;
+	}					
+.jd2{float:left;
+	margin-top:0px;}
+
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					

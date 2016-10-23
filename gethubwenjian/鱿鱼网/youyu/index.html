@@ -1,0 +1,692 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>buju</title>
+<style type="text/css">
+*{ margin:0; padding:0;}
+li{ list-style:none;}
+a{ text-decoration:none; color:#000}
+img{ border:none;}
+.top{border:1px solid #ececec; margin-bottom:1px;	}
+.top .center{height:30px;
+	width:1200px;
+	margin:0 auto;	
+}
+.center span.jt_down{ width:11px; height:6px; display: inline-block;vertical-align:middle;background:url(images/icons/jt_down.png) no-repeat center;padding:0 5px; margin-right:15px; }
+.top .center .ship{height:31px;
+	width:125px;background-color:#FFF;
+	line-height:31px;
+	text-align:center;
+	float:left;}
+.center .top_bars{ float:right;}
+.center .top_bars li{ float:left}
+.top_bars li a{height:30px;
+	line-height:30px;	
+	padding:0 15px;}
+.header1 { width:1200px; margin:0 auto; }
+.header1_top{ overflow:hidden;}
+.header1_top .logo{ width:102px; height:68px; background:url(images/logo.png) no-repeat center; float:left;margin:28px 108px 22px 0;	}
+.header1_top .search{float:left;
+	margin:30px 0 0 10px;	}
+.search .search_box{border:1px solid #c5131e; overflow:hidden}
+.search .search_box input{ float:left;width:418px;
+	height:34px;
+	border:none;	}
+.search .search_box span{ float:left;width:84px;
+	height:34px;
+	background-color:#c5131e;
+	line-height:34px;
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFF;}
+.header1_top .search p{height:16px;
+	line-height:16px;
+	margin:10px 0;	}
+.header1_top .search a{ padding:0 10px;} 
+.header1_top .right{ float:right; overflow:hidden;margin-top:34px;}
+.header1_top .right .myyy{ float:left; height:30px;line-height:30px;border:1px solid #efefef;
+	padding-left:32px; padding-right:22px; background:#f7f7f7 url(images/icons/shopcar_03.png) no-repeat 9px 6px; ;}
+.header1_top .right .tsc{ float:left; height:30px;line-height:30px;border:1px solid #efefef;
+	padding-left:32px; padding-right:22px; margin-left:20px; background:#f7f7f7  url(images/icons/shopcar_06.png) no-repeat 6px 7px;}
+	.shang .center{ width:1200px; margin:0 auto;}
+	.center p.n{ height:36px; line-height:36px;}
+	.shang .center .ck{ float:left; width:208px; height:539px; border:1px solid #C5000C; background-color:#FFF2F3;}
+	.center .ck h1.top{ background:#C1000B;height:35px; font-size:14px; font-weight:bold;color:#FFF; line-height:35px; padding-left:12px;}
+	.center .ck dl.ck_z{ width:208px; height:506px;}
+	.ck dl.ck_z dd{ border-bottom:1px solid #CCC; padding-left:11px; padding-top:13px;padding-bottom:13px;}
+.ck_z dd h1.s{ font-size:14px; font-weight:bold; margin-bottom:9px;}
+.ck_z dd p a{ font-size:12px; margin-right:14px;}
+.center p.n a{ font-size:14px; font-weight:bold; margin-right:5px; margin-left:25px;}
+.xia{ border-top:1px solid #C5000C; height:505px;}
+.xia .center{ width:1200px; margin:0 auto;  height:505px;}
+.xia .center .tp{ width:696px; height:490px; border:1px solid #CCC; float:left;margin-left:8px; margin-top:12px;}
+.center .tp ul.yyy{ overflow:hidden; width:725px; padding-left:23px;} 
+.tp ul.yyy li{ float:left; border-right:1px solid #ccc; width:231px; height:202px;}
+.tp ul.yyy li.clear{ border-right:none;}
+.xia .center .right{width:273px;height:490px; border:1px solid #CCC; margin-left:924px;position: relative;top:12px;}
+.center .right h1{ font-size:16px; color:#888888; height:34px; border-bottom:1px solid #ccc; line-height:34px; font-weight:normal; padding-left:10px;}
+.center .right h1 span{color:#C5131E; margin-left:150px;}
+.center .right ul{ padding-left:9px; padding-top:8px;}
+.center .right li{ font-size:12px; color:#666666; margin-bottom:13px;}
+.center .right li span{ color:#C5000C; margin-right:13px;}
+.content{ width:1200px; margin:0 auto;}
+.content .content1{margin-top:16px; overflow:hidden;}
+.content .content1 li{ float:left; width:291px; height:191px; background:url(images/p023.png) no-repeat center; margin-bottom:2px; margin-right:2px; padding-left:5px; padding-top:35px; padding-bottom:0px;}
+.content1 li h1{font-size:18px; }
+.content1 li p.a{ font-size:14px; color:#CCC}
+.content1 li p.b{ font-size:16px; color:#FF0000;}
+.biaoti a{ margin-right:140px;}
+.content2{width:1200px; margin:0 auto; border-top:1px solid #B4B4B4; border-bottom:1px solid #B4B4B4;margin-top:8px; overflow:hidden; }
+.content2 .left{width:192px; float:left}
+.content2 .left .top{ height:158px; overflow:hidden}
+.content2 .left .top ul.a{ float:left;margin-right:73px; margin-left:10px; margin-top:11px;}
+.content2 .left .top ul.b{ float:left; margin-top:11px;}
+.left .top li{ font-size:14px; margin-bottom:5px;}
+.left .top li a{color:#5A5A5A;}
+.content2 .right{ height:405px; width:1008px;  float:right; overflow:hidden;}
+.content2 .right li{ float:left; height:204px; width:166px; background:url(images/%E9%B1%BF%E9%B1%BC%E7%BD%91-%E9%A6%96%E9%A1%B5_03_03.png) no-repeat center; border:1px solid #ccc;}
+.content2 .right li.dt{ width:502px; height:203px; float:left; background:url(images/f12.jpg)}
+.content2 .right li.r{ float:right;}
+.biaoti1{ margin-top:27px;}
+.biaoti1 a{ margin-right:140px;}
+.content3{width:1200px; margin:0 auto; border-top:1px solid #B4B4B4; border-bottom:1px solid #B4B4B4;margin-top:8px; overflow:hidden}
+.content3 .left{width:192px; float:left}
+.content3 .left .top{ height:158px; overflow:hidden}
+.content3 .left .top ul.a{ float:left;margin-right:73px; margin-left:10px; margin-top:11px;}
+.content3 .left .top ul.b{ float:left; margin-top:11px;}
+.left .top li{ font-size:14px; margin-bottom:5px;}
+.left .top li a{color:#5A5A5A;}
+.content3 .right{ height:405px; width:1008px; float:right; overflow:hidden;}
+.content3 .right li{ float:left; height:204px; width:166px; background:url(images/%E9%B1%BF%E9%B1%BC%E7%BD%91-%E9%A6%96%E9%A1%B5_03_03.png) no-repeat center; border:1px solid #ccc;}
+.content3 .right li.dt{ width:502px; height:203px; float:left; background:url(images/f12.jpg)}
+.content3 .right li.r{ float:right;}
+.content4{width:1200px; margin:0 auto; border:1px solid #B4B4B4; margin-top:18px; overflow:hidden}
+.content4 .left{ width:381px; height:303px; border-right:1px solid #B4B4B4; float:left }
+.content4 .left h1{ height:38px; border-bottom:1px solid #B4B4B4; font-size:16px; font-weight:normal; color:#555555;line-height:38px; padding-left:13px; background:#F4F4F4;}
+.content4 .left ul.d { padding-left:11px; padding-top:25px;}
+.content4 .left ul.d li{ overflow: hidden; height:132px; }
+.left ul.d li .tp{ width:90px; height:90px; float:left; background:url(images/3333333.png) no-repeat center; margin-right:16px;}
+ .left ul.d li .dh{width:245px;float:left;}
+.left .dh .dh_wz{ width:245px; height:30px;line-height:30px; font-size:12px; margin-bottom:10px;}
+.left .dh .bj { width:245px; height:60px; background-color:#F4F4F4; text-align:left; font-size:14px; line-height:20px;}
+.content4 .center{ width:518px; height:303px; border-right:1px solid #B4B4B4; float:left }
+.content4 .center h1{ height:38px; border-bottom:1px solid #B4B4B4; font-size:16px; font-weight:normal; color:#555555;line-height:38px; padding-left:13px; background:#F4F4F4;}
+.content4 .center dd{ overflow:hidden; margin-top:15px; margin-left:11px; border-bottom:1px dashed #ccc; }
+.content4 .center dl div{ float:left; margin-right:28px;margin-bottom:10px; }
+.content4 .center dl ul{ float:left}
+.content4 .right{ height:303px; width:299px; margin-left:901px;}
+.content4 .right h1{ height:38px; border-bottom:1px solid #B4B4B4; font-size:16px; font-weight:normal; color:#EB0041;line-height:38px; padding-left:13px; background:#F4F4F4;}
+.content4 .right dd{ overflow:hidden; margin-top:8px; margin-left:11px; border-bottom:1px dashed #ccc; }
+.content4 .right dl div{ float:left; margin-right:19px;margin-bottom:10px; }
+.content4 .right p{ float:left; font-size:14px;}
+.footer1{border-bottom:2px solid #ED0042; overflow:hidden; background-color:#EEEEEE; margin-top:21px;}
+.footer1 .center{ width:1200px; margin:0 auto; overflow:hidden; }
+.footer1 .center ul.wb{ overflow:hidden; padding:45px 6px;;}
+ .center ul.wb li{ float:left;line-height:45px; height:45px; font-size:22px; font-weight:bold;}
+ .center ul.wb li.e{ margin-right:85px;}
+ .center ul.wb li span.a{ background:url(images/icon_1_17.png) no-repeat center; width:42px; height:42px; display:block; float:left; margin-right:7px;  }
+.center ul.wb li span.b{ background:url(images/icon_1_20.png) no-repeat center; width:42px; height:42px; display:block; float:left; margin-right:7px;}
+.center ul.wb li span.c{ background:url(images/icon_1_23.png) no-repeat center; width:42px; height:42px; display:block; float:left; margin-right:7px;}
+.center ul.wb li span.d{ background:url(images/icon_1_25.png) no-repeat center; width:42px; height:42px; display:block; float:left; margin-right:7px;}
+.footer2{ background-color:#F5F5F6; overflow:hidden;}
+.footer2 .center{ width:1200px; margin:0 auto; padding-left:15px;}
+.footer2 ul{ overflow:hidden; }
+.footer2 ul li.aa{width:106px;float:left; overflow:hidden;padding-top:43px;}
+.footer2 ul li.aa img{ float:left; margin-right:2px;}
+.footer2 ul li.aa ul.gowu{ float:left; }
+li.aa ul.gowu h1{ font-size:16px; font-weight:bold; margin-bottom:12px;color:#444444}
+li.aa ul.gowu li{ font-size:12px; color:#5A5A5A; line-height:20px;}
+.footer2 ul li.bb{width:78px;height:237px; float:left;}
+.footer2 ul li.cc{width:263px;height:237px; float:left; padding-top:43px;}
+.footer2 ul li.cc img{ float:left; margin-right:2px;}
+.footer2 ul li.cc ul.gowu{ float:left;}
+li.cc ul.gowu h1{ font-size:16px; font-weight:bold; margin-bottom:12px;color:#444444}
+li.cc ul.gowu li{ font-size:12px; color:#5A5A5A}
+.footer3{background:#F7F7F7}
+.footer3 .center{ width:1200px; margin:0 auto; height:153px;}
+.footer3 .center ul{ padding-left:318px; padding-top:31px;}
+.footer3 .center li a{ font-size:12px; color:#666666; margin:0 8px;}
+.footer3 .center li{ font-size:12px; color:#666666; margin-bottom:10px;}
+.footer3 .center li.s{ margin-left:85px}
+.footer3 .center li.z{ margin-left:70px}
+
+</style>
+</head>
+
+<body>
+ <div class="top">
+     	<div class="center">
+        	<span class="ship">送货至<b>浙江</b>
+            <span class="jt_down"></span>
+            </span>
+            <ul class="top_bars">
+            	<li><a href="#">退出</a></li>
+            	<li><a href="#">我的订单</a><span class="jt_down"></span>|</li>
+            	<li><a href="#">特色服务</a><span class="jt_down"></span>|</li>
+            	<li><a href="#">服务中心</a><span class="jt_down"></span>|</li>
+            	<li><a href="#">手机鱿鱼</a><span class="jt_down"></span>|</li>
+            	<li><a href="#">关注鱿鱼</a><span class="jt_down"></span>|</li>
+            	<li><a href="#">网站导航</a><span class="jt_down"></span></li>
+            </ul>
+        </div>
+     </div>
+     <div class="header1">
+        	<div class="header1_top">
+        		<div class="logo"></div>
+           	 	<div class="search">
+                <div class="search_box">
+                	<input type="text"><span>搜索</span>
+                 </div>
+                    <p><a href="#">iphone</a>|
+                    <a href="#">华为</a>|
+                    <a href="#">小米</a>|
+                     <a href="#">OPPO</a>|
+                    </p>
+                </div>
+           	 	<div class="right">
+                <div class="myyy">
+            	我的鱿鱼
+                <span class="sj_down"></span>
+             </div>
+            <div class="tsc">
+            	去购物车结算
+                <span class="sj_right"></span>
+            </div>
+                </div>
+            </div>
+            </div>
+	<div class="shang">
+    <div class="center">
+    	<div class="ck">
+        <h1 class="top">全部商品分类</h1>
+        <dl class="ck_z">
+        	<dd>
+            	<h1 class="s"><a href="#">国产行货</a></h1>
+                <p><a href="#">苹果</a><a href="#">三星</a><a href="#">索尼</a><a href="#">HTC</a></p>
+            </dd>
+        	<dd>
+            	<h1 class="s">品牌行货</h1>
+                 <p><a href="#">苹果</a><a href="#">三星</a><a href="#">索尼</a><a href="#">HTC</a></p>
+            </dd>
+            <dd>
+            	<h1 class="s">电信行货</h1>
+                <p><a href="#">苹果</a><a href="#">三星</a><a href="#">索尼</a><a href="#">HTC</a></p>
+            </dd>
+            <dd>
+            	<h1 class="s">老人手机</h1>
+                 <p><a href="#">苹果</a><a href="#">三星</a><a href="#">索尼</a><a href="#">HTC</a></p>
+            </dd>
+            <dd>
+            	<h1 class="s">配件序列</h1>
+                <p><a href="#">苹果</a><a href="#">三星</a><a href="#">索尼</a><a href="#">HTC</a></p>
+            </dd>
+            <dd>
+            	<h1 class="s">精选卡号</h1>
+                 <p><a href="#">苹果</a><a href="#">三星</a><a href="#">索尼</a><a href="#">HTC</a></p>
+            </dd>
+            <dd>
+            	<h1 class="s">全球购</h1>
+             <p><a href="#">苹果</a><a href="#">三星</a><a href="#">索尼</a><a href="#">HTC</a></p>
+            </dd>
+        </dl>
+        </div>
+        <p class="n"><a href="#">二手良品</a><a href="#">华为</a><a href="#">OPPO</a><a href="#">苹果</a><a href="#">全球购</a></p>
+        </div>
+    </div>
+    <div class="xia">
+    	  <div class="center">
+          	<div class="tp">
+            	<div> <img src="images/ad2.jpg"></div>
+                <ul class="yyy">
+                	<li><img src="images/p01.jpg"></li>
+                	<li><img src="images/p01.jpg"></li>
+                	<li class="clear"><img src="images/p01.jpg"></li>
+                </ul>
+            </div>
+          <div class="right">
+          	<h1>鱿鱼快报<span>更多></span></h1>
+            <ul>
+            	<li><a href="#"><span>■</span><现货>十余项黑科技、很轻很快</a></li>
+                <li><a href="#"><span>■</span><现货>十余项黑科技、很轻很快</a></li>
+               <li><a href="#"><span>■</span><现货>十余项黑科技、很轻很快</a></li>
+                <li><a href="#"><span>■</span><现货>十余项黑科技、很轻很快</a></li>
+                <li><a href="#"><span>■</span><现货>十余项黑科技、很轻很快</a></li>
+                <li><a href="#"><span>■</span><现货>十余项黑科技、很轻很快</a></li>
+                <li><a href="#"><span>■</span><现货>十余项黑科技、很轻很快</a></li>
+                <li><a href="#"><span>■</span><现货>十余项黑科技、很轻很快</a></li>
+                <li><a href="#"><span>■</span><现货>十余项黑科技、很轻很快</a></li>
+                <li><a href="#"><span>■</span><现货>十余项黑科技、很轻很快</a></li>
+                <li><a href="#"><span>■</span><现货>十余项黑科技、很轻很快</a></li>
+                <li><a href="#"><span>■</span><现货>十余项黑科技、很轻很快</a></li>
+                <li><a href="#"><span>■</span><现货>十余项黑科技、很轻很快</a></li>
+                <li><a href="#"><span>■</span><现货>十余项黑科技、很轻很快</a></li>
+                <li><a href="#"><span>■</span><现货>十余项黑科技、很轻很快</a></li>
+            </ul>
+          </div>
+          </div>
+    </div>
+    <div class="content">
+    	<div class="content1">
+        	<ul>
+            <li>
+            <br>
+            	<h1>苹果6S Plus</h1><br>
+                <p class="a">指尖一按，</p>
+                <p class="b">3D Touch <br>就能让你实现更多<br>精彩</p>
+            </li>
+            <li>
+              <br>
+            	<h1>苹果6S Plus</h1><br>
+                <p class="a">指尖一按，</p>
+                <p class="b">3D Touch <br>就能让你实现更多<br>精彩</p>
+            </li>
+            <li>
+              <br>
+            	<h1>苹果6S Plus</h1><br>
+                <p class="a">指尖一按，</p>
+                <p class="b">3D Touch <br>就能让你实现更多<br>精彩</p>
+            </li>
+            <li>
+              <br>
+            	<h1>苹果6S Plus</h1><br>
+                <p class="a">指尖一按，</p>
+                <p class="b">3D Touch <br>就能让你实现更多<br>精彩</p>
+            </li>
+            <li>
+              <br>
+            	<h1>苹果6S Plus</h1><br>
+                <p class="a">指尖一按，</p>
+                <p class="b">3D Touch <br>就能让你实现更多<br>精彩</p>
+            </li>
+            <li>
+              <br>
+            	<h1>苹果6S Plus</h1><br>
+                <p class="a">指尖一按，</p>
+                <p class="b">3D Touch <br>就能让你实现更多<br>精彩</p>
+            </li>
+            <li>
+              <br>
+            	<h1>苹果6S Plus</h1><br>
+                <p class="a">指尖一按，</p>
+                <p class="b">3D Touch <br>就能让你实现更多<br>精彩</p>
+            </li>
+            <li>
+              <br>
+            	<h1>苹果6S Plus</h1><br>
+                <p class="a">指尖一按，</p>
+                <p class="b">3D Touch <br>就能让你实现更多<br>精彩</p>
+            </li>
+           
+            </ul>
+        </div>
+        <div class="biaoti">
+        <p><img src="images/icons/images/鱿鱼网-首页_03.png"><a href="#">国产行货</a><a href="#">热卖商品</a></p>
+        </div>
+        <div class="content2">
+        	<div class="left">
+            <div class="top">
+            <ul class="a">
+              <li><a href="#">华为</a></li>
+           <li><a href="#">魅族</a></li>
+           <li><a href="#">锤子</a></li>
+           <li><a href="#">酷派</a></li>
+           <li><a href="#">海信</a></li>
+           <li><a href="#">优思</a></li>
+            </ul>
+            <ul class="b">
+            	 <li><a href="#">华为</a></li>
+           <li><a href="#">魅族</a></li>
+           <li><a href="#">锤子</a></li>
+           <li><a href="#">酷派</a></li>
+           <li><a href="#">海信</a></li>
+           <li><a href="#">优思</a></li>
+            </ul>
+         
+            </div>
+            <img src="images/f13.jpg" >
+            </div>
+            <div class="right">
+            	<ul>
+                	<li></li>
+                	<li class="dt"></li>
+                	<li></li>
+                	<li class="r"></li>
+                	<li></li>
+                	<li></li>
+                	<li></li>
+                	<li></li>
+                	<li class="r"></li>
+                	<li class="r"></li>
+                </ul>
+            </div>
+        </div>
+         <div class="biaoti1">
+        <p><img src="images/icons/images/鱿鱼网-首页_07.png"><a href="#">国产行货</a><a href="#">热卖商品</a></p>
+        </div>
+        <div class="content3">
+        
+        	<div class="left">
+            <div class="top">
+            <ul class="a">
+              <li><a href="#">华为</a></li>
+           <li><a href="#">魅族</a></li>
+           <li><a href="#">锤子</a></li>
+           <li><a href="#">酷派</a></li>
+           <li><a href="#">海信</a></li>
+           <li><a href="#">优思</a></li>
+            </ul>
+            <ul class="b">
+            	 <li><a href="#">华为</a></li>
+           <li><a href="#">魅族</a></li>
+           <li><a href="#">锤子</a></li>
+           <li><a href="#">酷派</a></li>
+           <li><a href="#">海信</a></li>
+           <li><a href="#">优思</a></li>
+            </ul>
+         
+            </div>
+            <img src="images/f13.jpg" >
+            </div>
+            <div class="right">
+            	<ul>
+                	<li></li>
+                	<li class="dt"></li>
+                	<li></li>
+                	<li class="r"></li>
+                	<li></li>
+                	<li></li>
+                	<li></li>
+                	<li></li>
+                	<li class="r"></li>
+                	<li class="r"></li>
+                </ul>
+            </div>
+        </div>
+          <div class="biaoti1">
+        <p><img src="images/icons/images/鱿鱼网-首页_07.png"><a href="#">国产行货</a><a href="#">热卖商品</a></p>
+        </div>
+        <div class="content3">
+        
+        	<div class="left">
+            <div class="top">
+            <ul class="a">
+              <li><a href="#">华为</a></li>
+           <li><a href="#">魅族</a></li>
+           <li><a href="#">锤子</a></li>
+           <li><a href="#">酷派</a></li>
+           <li><a href="#">海信</a></li>
+           <li><a href="#">优思</a></li>
+            </ul>
+            <ul class="b">
+            	 <li><a href="#">华为</a></li>
+           <li><a href="#">魅族</a></li>
+           <li><a href="#">锤子</a></li>
+           <li><a href="#">酷派</a></li>
+           <li><a href="#">海信</a></li>
+           <li><a href="#">优思</a></li>
+            </ul>
+         
+            </div>
+            <img src="images/f13.jpg" >
+            </div>
+            <div class="right">
+            	<ul>
+                	<li></li>
+                	<li class="dt"></li>
+                	<li></li>
+                	<li class="r"></li>
+                	<li></li>
+                	<li></li>
+                	<li></li>
+                	<li></li>
+                	<li class="r"></li>
+                	<li class="r"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="biaoti1">
+        <p><img src="images/icons/images/鱿鱼网-首页_07.png"><a href="#">国产行货</a><a href="#">热卖商品</a></p>
+        </div>
+        <div class="content3">
+        
+        	<div class="left">
+            <div class="top">
+            <ul class="a">
+              <li><a href="#">华为</a></li>
+           <li><a href="#">魅族</a></li>
+           <li><a href="#">锤子</a></li>
+           <li><a href="#">酷派</a></li>
+           <li><a href="#">海信</a></li>
+           <li><a href="#">优思</a></li>
+            </ul>
+            <ul class="b">
+            	 <li><a href="#">华为</a></li>
+           <li><a href="#">魅族</a></li>
+           <li><a href="#">锤子</a></li>
+           <li><a href="#">酷派</a></li>
+           <li><a href="#">海信</a></li>
+           <li><a href="#">优思</a></li>
+            </ul>
+         
+            </div>
+            <img src="images/f13.jpg" >
+            </div>
+            <div class="right">
+            	<ul>
+                	<li></li>
+                	<li class="dt"></li>
+                	<li></li>
+                	<li class="r"></li>
+                	<li></li>
+                	<li></li>
+                	<li></li>
+                	<li></li>
+                	<li class="r"></li>
+                	<li class="r"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="biaoti1">
+        <p><img src="images/icons/images/鱿鱼网-首页_07.png"><a href="#">国产行货</a><a href="#">热卖商品</a></p>
+        </div>
+        <div class="content3">
+        
+        	<div class="left">
+            <div class="top">
+            <ul class="a">
+              <li><a href="#">华为</a></li>
+           <li><a href="#">魅族</a></li>
+           <li><a href="#">锤子</a></li>
+           <li><a href="#">酷派</a></li>
+           <li><a href="#">海信</a></li>
+           <li><a href="#">优思</a></li>
+            </ul>
+            <ul class="b">
+            	 <li><a href="#">华为</a></li>
+           <li><a href="#">魅族</a></li>
+           <li><a href="#">锤子</a></li>
+           <li><a href="#">酷派</a></li>
+           <li><a href="#">海信</a></li>
+           <li><a href="#">优思</a></li>
+            </ul>
+         
+            </div>
+            <img src="images/f13.jpg" >
+            </div>
+            <div class="right">
+            	<ul>
+                	<li></li>
+                	<li class="dt"></li>
+                	<li></li>
+                	<li class="r"></li>
+                	<li></li>
+                	<li></li>
+                	<li></li>
+                	<li></li>
+                	<li class="r"></li>
+                	<li class="r"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content4">
+        	<div class="left">
+            <h1>热门晒单</h1>
+            <ul class="d">
+            	<li><div class="tp"></div>
+                <div class="dh">
+                	<div class="dh_wz"><img src="images/icons/icon_1_03.png">猫*****回</div>
+                    <div class="bj">"这一星是给这个手表的，非常生气，顺便提醒各位，只...."</div>
+                    </div>
+               </li>
+               <li><div class="tp"></div>
+                <div class="dh">
+                	<div class="dh_wz"><img src="images/icons/icon_1_03.png">猫*****回</div>
+                    <div class="bj">"这一星是给这个手表的，非常生气，顺便提醒各位，只...."</div>
+                    </div>
+               </li>
+            </ul>
+            </div>
+            <div class="center">
+            <h1>用户留言</h1>
+            	<dl>
+                <dd><div><img src="images/icons/鱿鱼网-首页_06.png"></div>
+                <ul>
+                	<li> <img src="images/icons/icon_1_10.png" >：R9有送什么东西的吗?</li>
+                    <li> <img src="images/icons/icon_1_14.png" ><a href="#"></a>：赠品页面上都会有写</a></li>
+                </ul>
+                </dd>
+                 <dd><div><img src="images/icons/鱿鱼网-首页_06.png"></div>
+                <ul>
+                	<li> <img src="images/icons/icon_1_10.png" >：R9有送什么东西的吗?</li>
+                    <li> <img src="images/icons/icon_1_14.png" ><a href="#"></a>：赠品页面上都会有写</a></li>
+                </ul>
+                </dd>
+                 <dd><div><img src="images/icons/鱿鱼网-首页_06.png"></div>
+                <ul>
+                	<li> <img src="images/icons/icon_1_10.png" >：R9有送什么东西的吗?</li>
+                    <li> <img src="images/icons/icon_1_14.png" ><a href="#"></a>：赠品页面上都会有写</a></li>
+                </ul>
+                </dd>
+                
+                </dl>
+            </div>
+            <div class="right">
+            <h1>苹果</h1>
+            <dl>
+                <dd><div><img src="images/icons/images/images/鱿鱼网-首页_03.png"></div>
+               <p>苹果(apple)iphone 6s 深空灰 <br>
+               		港版 64GB 移动/联通双4G <br>
+                    ￥5409.00元
+               </p>
+                </dd>
+                 <dd><div><img src="images/icons/images/images/鱿鱼网-首页_03.png"></div>
+               <p>苹果(apple)iphone 6s 深空灰 <br>
+               		港版 64GB 移动/联通双4G <br>
+                    ￥5409.00元
+               </p>
+                </dd>
+                 <dd><div><img src="images/icons/images/images/鱿鱼网-首页_03.png"></div>
+               <p>苹果(apple)iphone 6s 深空灰 <br>
+               		港版 64GB 移动/联通双4G <br>
+                    ￥5409.00元
+               </p>
+                </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div class="footer1">
+     	<div class="center">
+        <ul class="wb">
+        	<li class="e"><span class="a"></span>品目繁多 愉悦购物</li>
+        	<li  class="e"><span class="b"></span>正品保障 天天低价</li>
+        	<li class="e"><span class="c"></span>极速物流 特色定制</li>
+        	<li><span class="d"></span>优质服务 以客为尊</li>
+        </ul>
+        </div>
+     </div> 
+     <div class="footer2">
+       <div class="center">
+       	<ul>
+        	<li class="aa">
+            	<img src="images/icons/icon_1_43.png" >
+                <ul class="gowu">
+                <li><h1>购物指南</h1></li>
+                <li>找回密码</li>
+                <li>购物演示</li>
+                </ul>
+              
+            </li>
+        	<li class="bb"></li>
+        	<li class="aa">
+            <img src="images/icons/icon_1_43.png" >
+                <ul class="gowu">
+                <li><h1>配送方式</h1></li>
+                <li>配送查询</li>
+                <li>签收验货</li>
+                   <li>运费标准</li>
+                <li>上门自提</li>
+                </ul></li>
+        	<li class="bb"></li>
+        	<li class="aa">
+            <img src="images/icons/icon_1_43.png" >
+                <ul class="gowu">
+                <li><h1>支付方式</h1></li>
+               <li>货到付款</li>
+                <li>扫码支付</li>
+                   <li>公司转账</li>
+                <li>邮局付款</li>
+                <li>公司付款</li>
+                </ul>
+            </li>
+        	<li class="bb"></li>
+        	<li class="aa">
+            <img src="images/icons/icon_1_43.png" >
+                <ul class="gowu">
+                <li><h1>售后服务</h1></li>
+                <li>货到付款</li>
+                <li>扫码支付</li>
+                   <li>公司转账</li>
+                <li>邮局付款</li>
+                <li>公司付款</li>
+                </ul>
+            </li>
+        	<li class="bb"></li>
+        	<li class="aa">
+            <img src="images/icons/icon_1_43.png" >
+                <ul class="gowu">
+                <li><h1>服务保障</h1></li>
+                <li>货到付款</li>
+                <li>扫码支付</li>
+                   <li>公司转账</li>
+                <li>邮局付款</li>
+                <li>公司付款</li>
+                <li>扫码支付</li>
+                   <li>公司转账</li>
+                <li>邮局付款</li>
+                </ul>
+            </li>
+        	<li class="bb"></li>
+        	<li class="cc">
+            <img src="images/icons/icon_1_43.png" >
+                <ul class="gowu">
+                <li><h1>客服中心</h1></li>
+                <li><img src="images/QRCodes.png">抢红包、疑问咨询、优惠<br>活动</li>
+                </ul>
+            </li></li>
+        </ul>
+       </div>
+       </div>
+       <div class="footer3">
+       	<div class="center">
+        <ul>
+        <li class="s"><a href="#">关于我们</a>|<a href="#">联系我们</a>|<a href="#">友情链接</a>|<a href="#">苹果电脑</a>|<a href="#">老人手机</a>|<a href="#">供货商入驻</a></li>
+        <li class="z">沪ICP备14033591号-8 鱿鱼youyu.com版权所有 亚松电子商务（上海）有限公司</li>
+        <li class="x"> <img src="images/police.png"></li>
+        </ul>
+        </div>
+       </div>
+</body>
+</html>

@@ -1,0 +1,225 @@
+/* CSS Document */
+*{margin:0;
+padding:0;}
+/*我们在初学阶段可以这么设置，后期项目会选择木一些标签这只内外边距为0*/
+body{font-family:"MILT_RG";
+	font-size:14px;
+		color:#000;}
+a{text-decoration:none;}
+ul{list-style-type:none;}
+.clear{clear:both;}
+
+
+#head{height:49px;
+		background:#000;
+		line-height:49px;}
+#head_left{float:left;
+			padding:16px 0 0 50px;}
+#head_right{float:right;
+			padding-right:50px;}
+#head_right ul li{display:inline;
+				padding:0 15px;}
+#head_right ul li a{color:#DDD;}
+#head_right ul li a:hover{color:#868686;}
+
+
+#xm_con_1{height:796px;
+		background:#EFEFEF url(file:///F|/img/images/images/images/miui7.5-001.jpg) no-repeat center center scroll;
+		width:auto;
+		overflow:hidden;}
+#xm_con_1_ljty{text-align:center;
+				position:relative;
+				top:200px;}
+#xm_con_1_ljty a{display:block;
+				width:154px;
+				height:36px;
+				color:#636363;
+				border:1px solid #757575;
+				border-radius:10px;
+				line-height:36px;
+				font-size:15px;
+				margin:35px auto;}
+#xm_con_1_ljty p{color:#878787;
+				font-size:19px;}
+				
+				
+#xm_con_2{background:url(file:///F|/img/images/images/images/miui7.5-031.jpg) no-repeat center center;
+		height:1280px;}
+#xm_con_2_text{text-align:center;
+				position:relative;
+				top:100px;}
+#xm_con_2_text h2{font-size:35px;
+					font-weight:100;
+					line-height:80px;}
+#xm_con_2_text p{color:#9e9e9e;
+				font-size:18px;
+				line-height:40px;}
+				
+#xm_con_3{height:1710px;
+		text-align:center;
+		overflow:hidden;
+	}
+#xm_con_3_bottom{height:800px;
+			background:url(file:///F|/img/images/images/images/miui7.5-002.jpg) no-repeat center center;
+			margin-top:30px;
+			overflow:hidden;
+			
+			}
+#xm_con_3_bottom ul{margin:0 auto;
+			margin-top:770px;
+					
+			}
+					
+#xm_con_3_bottom ul li{display:inline;
+						color:#8D8D8D;
+						font-size:18px;
+						padding:0 135px;}
+.con_menu2{position:relative;
+			left:20px;}
+.con_menu3{position:relative;
+			left:20px;}							
+#xm_con_3 h2{color:#585858;
+			font-size:35px;
+			font-weight:100;
+			line-height:90px;
+			margin-top:80px;}
+#xm_con_3 p{color:#8D8D8D;
+			line-height:30px;
+			font-size:18px;}
+#xm_con_3 p.zs{color:#CCC;
+				font-size:16px;
+				margin-top:30px;}
+
+#xm_con_3 h4{
+	font-size:22px;
+	line-height:30px;
+	font-weight:100;
+	margin-top:80px;
+	color:#585858;}
+#sysl{margin:0 auto;
+	width:1125px;
+	height:360px;
+	background:url(file:///F|/img/images/images/images/miui7.5-004.jpg) no-repeat center center;
+	overflow:hidden;}
+#sysl ul{margin-top:335px;}				
+#sysl ul li{display:inline;
+			color:#8D8D8D;
+			font-size:18px;
+			padding:0 233px;}
+			
+
+#ys_con{text-align:center;}	
+#ys_con h1{font-size:35px;
+			color:#585858;
+			position:relative;
+			top:-10px;
+			margin:0 auto;
+			font-weight:100;
+			}
+#ys_con span{color:#9e9e9e;
+				font-size:18px;
+				line-height:40px;}		
+#ys_con1{margin-top:100px;}
+
+#yy_con{text-align:center;
+		margin-top:100px;
+		}	
+#yy_con h1{font-size:35px;
+			color:#585858;
+			position:relative;
+			top:-10px;
+			margin:0 auto;
+			font-weight:100;
+			}
+#yy_con span{color:#9e9e9e;
+				font-size:18px;
+				line-height:40px;}		
+#yy_con1{margin-top:100px;}
+
+#zw_con{text-align:center;
+		margin-top:100px;
+	}	
+#zw_con h1{font-size:35px;
+			color:#585858;
+			position:relative;
+			top:-10px;
+			margin:0 auto;
+			font-weight:100;
+			}
+#zw_con span{color:#9e9e9e;
+				font-size:18px;
+				line-height:40px;}
+#zw_con span.zw{color:#CCC;
+	font-size:16px;
+	line-height:40px;}		
+#zw_con1{margin-top:100px;}
+
+#xfq_con{text-align:center;
+		margin-top:100px;
+		}	
+#xfq_con h1{font-size:35px;
+			color:#585858;
+			position:relative;
+			top:-10px;
+			margin:0 auto;
+			font-weight:100;
+			}
+#xfq_con span{color:#9e9e9e;
+				font-size:18px;
+				line-height:40px;}		
+#xfq_con1{margin-top:180px;
+			margin-left:350px;}
+
+#tz_con{text-align:center;
+		margin-top:100px;
+		}	
+#tz_con h1{font-size:35px;
+			color:#585858;
+			position:relative;
+			top:-10px;
+			margin:0 auto;
+			font-weight:100;
+			}
+#tz_con span{color:#9e9e9e;
+				font-size:18px;
+				line-height:40px;}		
+#tz_con1{margin-top:100px;
+		margin-left:100px;}
+		
+		
+#m_con{text-align:center;
+		margin-top:100px;
+		}	
+#m_con h1{font-size:35px;
+			color:#585858;
+			position:relative;
+			top:-10px;
+			margin:0 auto;
+			font-weight:100;
+			}
+#m_con span{color:#9e9e9e;
+				font-size:18px;
+				line-height:40px;}
+#m_con span.m{color:#CCC;
+			font-size:16px;
+			line-height:40px;}		
+#m_con1{margin-top:100px;
+		margin-left:300px;}
+
+/*mSIM*/
+#footer{height:160px;
+		text-align:center;
+		background:#F2F2F2;
+		overflow:hidden;}
+#footer ul{margin-top:50px;}
+#footer ul li{display:inline;
+			line-height:35px;
+			color:#D9D9D9;
+			padding:0 15px;}
+#footer ul li a{padding-right:18px;
+				color:#858585;
+}
+#footer p{font-size:12px;
+			color:#CCC;
+			line-height:35px;}
+
